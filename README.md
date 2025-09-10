@@ -6,7 +6,7 @@
 
 # 🚀 Curso de Front-End 
 
-Bem-vindo(a) ao repositório oficial da **Turma de Front-End 09PB**!  
+Bem-vindo(a) ao repositório oficial das **Turmas de Front-End da AJURCC PB**!  
 Aqui você encontrará **materiais de apoio**, **atividades** e **projetos** utilizados nas nossas aulas.
 
 ---
