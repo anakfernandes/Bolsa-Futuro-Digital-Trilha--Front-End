@@ -1,0 +1,49 @@
+/* Centraliza todo o conteúdo da página */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff; /* azul clarinho */
+  margin: 0;
+}
+
+/* Estilo do título */
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Estilo do parágrafo */
+#frase {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+/* Estilo do botão */
+#botao-sorte {
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #ff6f61; /* cor chamativa */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Efeito ao passar o mouse */
+#botao-sorte:hover {
+  background-color: #ff4a3d;
+  transform: scale(1.05); /* aumenta um pouquinho */
+}
+
+/* Efeito ao clicar */
+#botao-sorte:active {
+  transform: scale(0.95); /* dá efeito de clique */
+}
