@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+#minhaCaixa {
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0; /* Cor inicial */
+    border: 2px solid #333;
+    border-radius: 10px;
+    margin: 20px 0;
+    transition: background-color 0.5s ease; /* Transição suave */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}

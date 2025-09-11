@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#container-caixas {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as caixas quebrem para a próxima linha */
+    justify-content: center;
+    gap: 15px; /* Espaço entre as caixas */
+    margin-top: 20px;
+}
+
+.caixa {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
